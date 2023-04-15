@@ -61,6 +61,14 @@ header li a:hover,.active{
     justify-content: center;
     align-items: center;
 }
+.main::after{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    height: 100px;
+    width: 100px;
+    background:linear-gradient(to top,#200016,transparent);
+}
 
 .main img{
     position: absolute;
@@ -79,3 +87,18 @@ header li a:hover,.active{
     text-transform: uppercase;
     transform: translateY(-140px);
 }
+
+.content{
+    color: #fff;
+    padding: 30px;
+}
+
+.content h2{
+    margin: 20px;
+    font-size: 30px;
+}
+
+.content p{
+    margin: 20px;
+}
+
